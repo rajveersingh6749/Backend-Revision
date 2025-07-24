@@ -1,0 +1,28 @@
+{
+  "name": "f3-npm-basics",
+  "version": "1.0.0",
+  "description": "\"basics of npm\"",
+  "keywords": [
+    "npm",
+    "dependencies",
+    "devdependencies"
+  ],
+  "homepage": "https://github.com/rajveersingh6749/Backend-Revision#readme",
+  "bugs": {
+    "url": "https://github.com/rajveersingh6749/Backend-Revision/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajveersingh6749/Backend-Revision.git"
+  },
+  "license": "ISC",
+  "author": "Rajveer Singh",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "one-liner-joke": "^1.2.2"
+  }
+}

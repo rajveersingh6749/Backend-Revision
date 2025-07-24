@@ -1,0 +1,19 @@
+{
+  "name": "f4-express-basics",
+  "version": "1.0.0",
+  "description": "Introduction to Express.js",
+  "keywords": [
+    "Express",
+    "Routing"
+  ],
+  "license": "ISC",
+  "author": "Rajveer Singh",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

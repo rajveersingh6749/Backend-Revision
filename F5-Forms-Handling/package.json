@@ -1,0 +1,22 @@
+{
+  "name": "f5-forms-handling",
+  "version": "1.0.0",
+  "description": "Learning about form handling, sessions, cookies",
+  "keywords": [
+    "Form",
+    "handling",
+    "sessions",
+    "cookies"
+  ],
+  "license": "ISC",
+  "author": "Rajveer Singh",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "express": "^5.1.0"
+  }
+}

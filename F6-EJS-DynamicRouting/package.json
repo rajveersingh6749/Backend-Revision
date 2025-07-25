@@ -1,0 +1,20 @@
+{
+  "name": "f6-ejs-dynamicrouting",
+  "version": "1.0.0",
+  "description": "Master EJS, Dynamic Routing and Project Setup",
+  "keywords": [
+    "EJS",
+    "Routing"
+  ],
+  "license": "ISC",
+  "author": "Rajveer Singh",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "f8-mongodb",
+  "version": "1.0.0",
+  "description": "mongodb, mongodb installation and setup",
+  "keywords": [
+    "mongodb",
+    "CRUD"
+  ],
+  "license": "ISC",
+  "author": "Rajveer Singh",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.16.5"
+  }
+}

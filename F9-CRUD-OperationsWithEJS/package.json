@@ -1,0 +1,20 @@
+{
+  "name": "f9-crud-operationswithejs",
+  "version": "1.0.0",
+  "description": "CRUD operations with ejs and server side rendering",
+  "keywords": [
+    "CRUD",
+    "server-side-rendering"
+  ],
+  "license": "ISC",
+  "author": "Rajveer Singh",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.16.5"
+  }
+}

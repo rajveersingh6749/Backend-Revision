@@ -1,0 +1,24 @@
+{
+  "name": "f10-authentication-authorization",
+  "version": "1.0.0",
+  "description": "Authentication and Authorization, bcrypt and jwt",
+  "keywords": [
+    "Authentication",
+    "Authorization",
+    "bcrypt",
+    "jwt"
+  ],
+  "license": "ISC",
+  "author": "Rajveer Singh",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}

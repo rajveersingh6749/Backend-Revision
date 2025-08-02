@@ -1,0 +1,20 @@
+{
+  "name": "f12-dataassociation-mongodb",
+  "version": "1.0.0",
+  "description": "data association in mongodb",
+  "keywords": [
+    "DataAssociation",
+    "MonogoDB"
+  ],
+  "license": "ISC",
+  "author": "Rajveer Singh",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.17.0"
+  }
+}

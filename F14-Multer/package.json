@@ -1,0 +1,19 @@
+{
+  "name": "f14-multer",
+  "version": "1.0.0",
+  "description": "\"Learning about multur\"",
+  "keywords": [
+    "multer"
+  ],
+  "license": "ISC",
+  "author": "Rajveer Singh",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "multer": "^2.0.2"
+  }
+}

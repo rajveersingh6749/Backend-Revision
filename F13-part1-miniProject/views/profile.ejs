@@ -15,10 +15,17 @@
           >Logout</a
         >
       </div>
-      <h3 class="text-3xl">
-        <span class="font-light">Hello</span>, <%= user.name %>
-      </h3>
-      <h5 class="mb-5">you can create a new post</h5>
+
+      <div class="flex item-start gap-3">
+        <div class="w-10 h-10 rounded-md overflow-hidden">
+          <img class="w-full h-full object-cover" src="/images/uploads/<%= user.profilepic %>" alt="">
+        </div>
+        <h3 class="text-3xl">
+          <span class="font-light">Hello</span>, <%= user.name %>
+        </h3>
+      </div>
+
+      <h5 class="mb-5 mt-3">you can create a new post</h5>
       <form action="/post" method="post">
         <textarea
           placeholder="What's on your mind?"
@@ -42,7 +49,9 @@
           >
             <h4 class="text-blue-500 mb-2">@<%= user.username %></h4>
             <p class="text-sm tracking-tight"><%= post.content %></p>
-            <small class="mt-2 inline-block"><%= post.likes.length %> likes</small>
+            <small class="mt-2 inline-block"
+              ><%= post.likes.length %> likes</small
+            >
             <div class="btns flex gap-4 mt-2">
               <a class="text-blue-500" href="/like/<%= post._id %>">
                 <%= post.likes.indexOf(user._id) === -1 ? "Like" : "Unlike" %>
